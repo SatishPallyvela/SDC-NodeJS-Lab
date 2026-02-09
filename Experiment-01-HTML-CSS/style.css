@@ -1,0 +1,50 @@
+/* General styling */
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+/* Form box styling */
+.box {
+    width: 300px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+input {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0;
+}
+
+/* Buttons */
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: steelblue;
+    color: white;
+    border: none;
+}
+
+/* Product Grid using CSS Grid */
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+/* Product Card */
+.product {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+}
+
+/* Cart */
+.cart {
+    border: 1px solid #aaa;
+    padding: 20px;
+    width: 300px;
+}
